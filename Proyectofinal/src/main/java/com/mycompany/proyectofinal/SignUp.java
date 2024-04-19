@@ -200,7 +200,11 @@ public class SignUp extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        MenuPrincipal MenuPrincipalFrame = new MenuPrincipal();
+        MenuPrincipalFrame.setVisible(true);
+        MenuPrincipalFrame.pack();
+        MenuPrincipalFrame.setLocationRelativeTo(null);
+        this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

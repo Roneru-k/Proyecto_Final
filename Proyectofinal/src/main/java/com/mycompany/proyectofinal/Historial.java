@@ -33,6 +33,7 @@ public class Historial extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         btnMenu = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -66,6 +67,12 @@ public class Historial extends javax.swing.JFrame {
             }
         });
         jPanel2.add(btnMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jLabel4.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\kings\\OneDrive\\Documentos\\NetBeansProjects\\Proyectofinal\\src\\Iconos\\imagen_2024-04-15_164059852 (1).png")); // NOI18N
+        jLabel4.setText("Pay");
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 20, 110, 30));
 
         jPanel1.add(jPanel2);
         jPanel2.setBounds(0, 0, 810, 70);
@@ -306,6 +313,7 @@ public class Historial extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
